@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Leaker
+Bundle-SymbolicName: com.example.osate.leaker;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EXAMPLE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.resources;bundle-version="3.13.200"
+Automatic-Module-Name: com.example.osate.leaker
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.core.runtime;version="3.5.0"
